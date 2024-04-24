@@ -49,6 +49,11 @@ To log into the Heroku toolbelt CLI:
 
 You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
 
+## Introduction
+
+
+
+
 ## Dataset Content
 * The dataset is sourced from [Kaggle](https://www.kaggle.com/codeinstitute/housing-prices-data). We then created a fictitious user story where predictive analytics can be applied in a real project in the workplace. 
 * The dataset has almost 1.5 thousand rows and represents housing records from Ames, Iowa, indicating house profile (Floor Area, Basement, Garage, Kitchen, Lot, Porch, Wood Deck, Year Built) and its respective sale price for houses built between 1872 and 2010.
@@ -87,58 +92,39 @@ You can now use the `heroku` CLI program - try running `heroku apps` to confirm 
 In the following sections the business requirements will be explained, firstly a section describing the background followed by a problem statement, finally a description of the business case.
 
 ### Background
-//
-As a good friend, you are requested by your friend, who has received an inheritance from a deceased great-grandfather located in Ames, Iowa, to  help in maximising the sales price for the inherited properties. 
-//
 
-A fictional individual, Lydia Doe, has received an inheritance from a deceased great-grandfather. Included in the inheritance are four houses located in Ames, Iowa, USA. Although Lydia has an excellent understanding of property prices in her home country of Belgium, she fears that basing her estimates for property worth on her current knowledge of the Iowan market might lead to inaccurate appraisals. What makes a house desirable and valuable where she comes from might not be the same in Ames, Iowa.
+Our client, going by the alias 'Lydia Doe', has received an inheritance from a deceased great-grandfather. Included in the inheritance are four houses located in Ames, Iowa, USA. Lydia seeks assistance in maximizing the sales price for these inherited properties. To achieve this goal, she has chosen to enlist the help of a Data Practitioner. Her reasons for doing so include:
 
-Lydia needs help if she is to maximize the sales price for the inherited properties. She decides to ask a Data Practitioner for help. Her reasons for doing so are:
+- Lydia lacks knowledge about the value of the properties and wishes to avoid the risk of inaccurate pricing estimation. Given the potential for significant financial gains or losses when selling the four properties, she seeks assistance to ensure optimal pricing strategies.
+- Additionally, Lydia is keen on predicting the sale price of any house in Ames, Iowa, for potential future property ownership in the area 
 
-She doesn't know the worth of the properties and does not want to take the risk of inaccurate pricing estimation, since there is potentially a reasonable amount of money to be made or lost when selling the four properties.
-She is also interested in predicting the sale price from any house in Ames, Iowa in case of future property ownership in that area.
-From searching the Internet, Lydia found a public dataset with house prices for Ames, Iowa, and will provide you with that. You will build a Data Web App to predict the sales price from the four houses based on the house attributes. The business requirements are:
-
-The client is interested in discovering how the house attributes correlate with the sale price. Therefore, the client expects data visualizations of the correlated variables against the sale price to show that.
-The client is interested in predicting the house sales price from her four inherited houses, and any other house in Ames, Iowa.
-Deliver a dashboard that meets the above requirements.
-//
+From searching the Internet, Lydia found a public dataset with house prices for Ames, Iowa, and will provide us with that. We will build a Data Web App to predict the sales price from the four houses based on the house attributes. 
 
 
-Our client has ineheritaed 4 houses in Iowa USA, the client is living in Belgium and wish to know how to maximize sale prices for the properties. Futhermore the client wish to know the sale price for any other property in the area.
-She found a public dataset with house prices for Ames, Iowa, and will provide you with that.
+### Problem definition
 
-### Problem statement
-// Section from template
-Although your friend has an excellent understanding of property prices in her own state and residential area, she fears that basing her estimates for property worth on her current knowledge might lead to inaccurate appraisals. What makes a house desirable and valuable where she comes from might not be the same in Ames, Iowa. 
+While the client is well-versed in the determinants of property worth in her own area, it's crucial to understand the unique drivers of value in Ames, Iowa. The client worries that her personal expertise may not be adequate to accurately assess the value, potentially resulting in erroneous appraisals and financial losses.
 
-//
 
 ### Requirements
+
 * 1 - The client is interested in discovering how the house attributes correlate with the sale price. Therefore, the client expects data visualisations of the correlated variables against the sale price to show that.
 * 2 - The client is interested in predicting the house sale price from her four inherited houses and any other house in Ames, Iowa.
-//
 
 
-
-
-
-
-
-
-## Hypothesis and how to validate?
+## Hypothesis, validation and result
 * List here your project hypothesis(es) and how you envision validating it (them).
 
+- Sales price house attribute correlation: We assume that the following three features has the strongest correlation: location, size and the condition of the property:
+ - Validation: Evaluate each attribute in a correlation study.
+ - Result:  
 
 
-
-The price is dependent on the properties age
+The price i
  - Validate TBC
 
 The price is dependent on the area 
 - Validate TBC 
-
-
 
 
 ## The rationale to map the business requirements to the Data Visualisations and ML tasks
