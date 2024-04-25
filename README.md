@@ -115,23 +115,33 @@ While the client is well-versed in the determinants of property worth in her own
 ## Hypothesis, validation and result
 * List here your project hypothesis(es) and how you envision validating it (them).
 
-- Sales price house attribute correlation: We assume that the following three features has the strongest correlation: location, size and the condition of the property:
- - Validation: Evaluate each attribute in a correlation study.
- - Result:  
+1. Sales price house attribute correlation:
+   We assume that the following three features has the strongest correlation: location, size and the condition of the property:
+    - Validation: Evaluate each attribute in a correlation study.
+    - Result:  
 
 
-The price i
- - Validate TBC
-
-The price is dependent on the area 
-- Validate TBC 
+2. Sales price evolution:
+   We assume that sales price is increasing with two percent on average per year:
+   - Validation: Evaluate sales price development in a correlation (predict power score?) study.
+   - Result: 
 
 
 ## The rationale to map the business requirements to the Data Visualisations and ML tasks
 * List your business requirements and a rationale to map them to the Data Visualisations and ML tasks.
 
+  Business requirement 1: Correlation study and Data visualisation
+    - We will inspect the provided data received from the client.
+    - 
+    - 
 
 
+  Business requirement 2: Classification, Regression, Cluster, Data analysis
+
+   -
+   -
+   -
+   -    
 
 
 
