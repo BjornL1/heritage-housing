@@ -154,10 +154,13 @@ We want an ML model to predict if a prospect will churn based on historical data
 Our ideal outcome is to provide our sales team with reliable insight into onboarding customers with a higher sense of loyalty.
 The model success metrics are
 at least 80% Recall for Churn, on train and test set
+
 The ML model is considered a failure if:
 after 3 months of usage, more than 30% of newly onboarded customers churn (it is an indication that the offers are not working or the model is not detecting potential churners)
 Precision for no Churn is lower than 80% on train and test set. (We don't want to offer a free discount to many non-churnable prospects)
+
 The model output is defined as a flag, indicating if a prospect will churn or not and the associated probability of churning. If the prospect is online, the prospect will have already provided the input data via a form. If the prospect talks to a salesperson, the salesperson will interview to gather the input data and feed it into the App. The prediction is made on the fly (not in batches).
+
 Heuristics: Currently, there is no approach to predict churn on prospects
 The training data to fit the model comes from the Telco Customer. This dataset contains about 7 thousand customer records.
 Train data - target: Churn; features: all other variables, but tenure, total charges and customerID
